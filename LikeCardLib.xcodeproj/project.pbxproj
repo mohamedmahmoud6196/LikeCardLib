@@ -10,9 +10,12 @@
 		3A3986372972A28F009B25C4 /* LikeCardLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39862E2972A28F009B25C4 /* LikeCardLib.framework */; };
 		3A39863C2972A28F009B25C4 /* LikeCardLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */; };
 		3A39863D2972A28F009B25C4 /* LikeCardLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3986312972A28F009B25C4 /* LikeCardLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A39864B2972A3EE009B25C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3986472972A3ED009B25C4 /* ViewController.swift */; };
 		3A39864C2972A3EE009B25C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986482972A3ED009B25C4 /* Assets.xcassets */; };
 		3A39864D2972A3EE009B25C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986492972A3ED009B25C4 /* Main.storyboard */; };
+		3A647E152972D58400725919 /* Pods_LikeCardLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */; };
+		3A72489D2972BB480033D2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72489B2972BB480033D2BB /* ViewController.swift */; };
+		3A72489E2972BB480033D2BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72489C2972BB480033D2BB /* SecondViewController.swift */; };
+		CFD442072B31FF0B91E13693 /* Pods_LikeCardLib_LikeCardLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib.release.xcconfig"; path = "Target Support Files/Pods-LikeCardLib/Pods-LikeCardLib.release.xcconfig"; sourceTree = "<group>"; };
 		3A39862E2972A28F009B25C4 /* LikeCardLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LikeCardLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3986312972A28F009B25C4 /* LikeCardLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeCardLib.h; sourceTree = "<group>"; };
 		3A3986362972A28F009B25C4 /* LikeCardLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardLibTests.swift; sourceTree = "<group>"; };
-		3A3986472972A3ED009B25C4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A3986482972A3ED009B25C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A39864A2972A3ED009B25C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A647E112972D55000725919 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A72489B2972BB480033D2BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A72489C2972BB480033D2BB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib-LikeCardLibTests.release.xcconfig"; path = "Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardLib.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardLib/Pods-LikeCardLib.debug.xcconfig"; sourceTree = "<group>"; };
+		F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardLib_LikeCardLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A647E152972D58400725919 /* Pods_LikeCardLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3986372972A28F009B25C4 /* LikeCardLib.framework in Frameworks */,
+				CFD442072B31FF0B91E13693 /* Pods_LikeCardLib_LikeCardLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,8 @@
 				3A3986302972A28F009B25C4 /* LikeCardLib */,
 				3A39863A2972A28F009B25C4 /* LikeCardLibTests */,
 				3A39862F2972A28F009B25C4 /* Products */,
+				91CC09601A425C60CA9D6390 /* Pods */,
+				92AE98F9EB6647704C18B55D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,11 +107,41 @@
 		3A3986462972A3ED009B25C4 /* ReUsedModule */ = {
 			isa = PBXGroup;
 			children = (
-				3A3986472972A3ED009B25C4 /* ViewController.swift */,
+				3A72489A2972BB480033D2BB /* VC */,
 				3A3986482972A3ED009B25C4 /* Assets.xcassets */,
 				3A3986492972A3ED009B25C4 /* Main.storyboard */,
 			);
 			path = ReUsedModule;
+			sourceTree = "<group>";
+		};
+		3A72489A2972BB480033D2BB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3A72489B2972BB480033D2BB /* ViewController.swift */,
+				3A72489C2972BB480033D2BB /* SecondViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		91CC09601A425C60CA9D6390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */,
+				38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */,
+				8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */,
+				43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92AE98F9EB6647704C18B55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A647E112972D55000725919 /* MBProgressHUD.framework */,
+				96774926A36C8A6CAB2D516F /* Pods_LikeCardLib.framework */,
+				F43404C4676FFB75FABA149E /* Pods_LikeCardLib_LikeCardLibTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A3986402972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLib" */;
 			buildPhases = (
+				87DAB264B02EE1047931DBC8 /* [CP] Check Pods Manifest.lock */,
 				3A3986292972A28F009B25C4 /* Headers */,
 				3A39862A2972A28F009B25C4 /* Sources */,
 				3A39862B2972A28F009B25C4 /* Frameworks */,
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A3986432972A28F009B25C4 /* Build configuration list for PBXNativeTarget "LikeCardLibTests" */;
 			buildPhases = (
+				9CF64D8AAFB3E8BC158037E1 /* [CP] Check Pods Manifest.lock */,
 				3A3986322972A28F009B25C4 /* Sources */,
 				3A3986332972A28F009B25C4 /* Frameworks */,
 				3A3986342972A28F009B25C4 /* Resources */,
+				CC22BADE13304623DA27127B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,12 +253,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87DAB264B02EE1047931DBC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF64D8AAFB3E8BC158037E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardLib-LikeCardLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC22BADE13304623DA27127B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCardLib-LikeCardLibTests/Pods-LikeCardLib-LikeCardLibTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A39862A2972A28F009B25C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A39864B2972A3EE009B25C4 /* ViewController.swift in Sources */,
+				3A72489E2972BB480033D2BB /* SecondViewController.swift in Sources */,
+				3A72489D2972BB480033D2BB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +479,9 @@
 		};
 		3A3986412972A28F009B25C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56AC0B56F004B2535C6184C /* Pods-LikeCardLib.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -394,7 +509,9 @@
 		};
 		3A3986422972A28F009B25C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F532551DEBCE117D4F23BF /* Pods-LikeCardLib.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -422,6 +539,7 @@
 		};
 		3A3986442972A28F009B25C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAABB450D44F6F5FFD70E56 /* Pods-LikeCardLib-LikeCardLibTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +556,7 @@
 		};
 		3A3986452972A28F009B25C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B845F70FE3C41F9E932073 /* Pods-LikeCardLib-LikeCardLibTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
