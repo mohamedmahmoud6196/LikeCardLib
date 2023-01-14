@@ -10,6 +10,9 @@
 		3A3986372972A28F009B25C4 /* LikeCardLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39862E2972A28F009B25C4 /* LikeCardLib.framework */; };
 		3A39863C2972A28F009B25C4 /* LikeCardLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */; };
 		3A39863D2972A28F009B25C4 /* LikeCardLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3986312972A28F009B25C4 /* LikeCardLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A39864B2972A3EE009B25C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3986472972A3ED009B25C4 /* ViewController.swift */; };
+		3A39864C2972A3EE009B25C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986482972A3ED009B25C4 /* Assets.xcassets */; };
+		3A39864D2972A3EE009B25C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3986492972A3ED009B25C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 		3A3986312972A28F009B25C4 /* LikeCardLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeCardLib.h; sourceTree = "<group>"; };
 		3A3986362972A28F009B25C4 /* LikeCardLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardLibTests.swift; sourceTree = "<group>"; };
+		3A3986472972A3ED009B25C4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A3986482972A3ED009B25C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A39864A2972A3ED009B25C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		3A3986302972A28F009B25C4 /* LikeCardLib */ = {
 			isa = PBXGroup;
 			children = (
+				3A3986462972A3ED009B25C4 /* ReUsedModule */,
 				3A3986312972A28F009B25C4 /* LikeCardLib.h */,
 			);
 			path = LikeCardLib;
@@ -80,6 +87,16 @@
 				3A39863B2972A28F009B25C4 /* LikeCardLibTests.swift */,
 			);
 			path = LikeCardLibTests;
+			sourceTree = "<group>";
+		};
+		3A3986462972A3ED009B25C4 /* ReUsedModule */ = {
+			isa = PBXGroup;
+			children = (
+				3A3986472972A3ED009B25C4 /* ViewController.swift */,
+				3A3986482972A3ED009B25C4 /* Assets.xcassets */,
+				3A3986492972A3ED009B25C4 /* Main.storyboard */,
+			);
+			path = ReUsedModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A39864C2972A3EE009B25C4 /* Assets.xcassets in Resources */,
+				3A39864D2972A3EE009B25C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A39864B2972A3EE009B25C4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +231,17 @@
 			targetProxy = 3A3986382972A28F009B25C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3986492972A3ED009B25C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39864A2972A3ED009B25C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3A39863E2972A28F009B25C4 /* Debug */ = {
@@ -354,6 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp.LikeCardLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,6 +423,7 @@
 		3A3986442972A28F009B25C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,6 +439,7 @@
 		3A3986452972A28F009B25C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
